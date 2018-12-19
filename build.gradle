@@ -1,0 +1,11 @@
+allprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
+}
+
+subprojects {
+    project.group = 'com.serghienco.jdbc'
+}
